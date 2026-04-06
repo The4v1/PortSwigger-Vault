@@ -3,9 +3,9 @@
 
 # 📖 **TABLE OF CONTENTS**
 
-### 1. [🧠 What is Authentication ?](#1.🧠-What-is-Authentication-?)
+### 1. [🧠 What is Authentication ?](#1.What-is-Authentication-?)
 
-### 2. [🧾 Authentication vs Authorization](#2.🧾-Authentication-vs-Authorization)
+### 2. [🧾 Authentication vs Authorization](#2.Authentication-vs-Authorization)
 
 ### 3. [⚙️ How Vulnerabilities Arise — Root Causes](#3.⚙️-How-Vulnerabilities-Arise)
 
@@ -50,7 +50,7 @@
 ---
 ---
 
-## **1. 🧠-What-is-Authentication-?**
+## **1. What-is-Authentication-?**
 
 ---
 
@@ -68,7 +68,7 @@
 
 ---
 
-## **2. 🧾-Authentication-vs-Authorization**
+## **2. Authentication-vs-Authorization**
 
 |Concept|Meaning|Example|
 |---|---|---|
