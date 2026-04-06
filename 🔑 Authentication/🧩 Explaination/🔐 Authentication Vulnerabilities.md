@@ -3,54 +3,54 @@
 
 # 📖 **TABLE OF CONTENTS**
 
-### 1. 🧠 What is Authentication ?
+### 1. [🧠 What is Authentication ?](#1.🧠-What-is-Authentication-?)
 
-### 2. 🧾 Authentication vs Authorization
+### 2. [🧾 Authentication vs Authorization](#2.🧾-Authentication-vs-Authorization)
 
-### 3. ⚙️ How Vulnerabilities Arise — Root Causes
+### 3. [⚙️ How Vulnerabilities Arise — Root Causes](#3.⚙️-How-Vulnerabilities-Arise)
 
-### 4. 💥 Impact of Authentication Vulnerabilities
+### 4. [💥 Impact of Authentication Vulnerabilities](#4.💥-Impact-of-Authentication-Vulnerabilities)
 
-### 5. 🔍 Finding the Authentication Attack Surface
+### 5. [🔍 Finding the Authentication Attack Surface](#5.🔍-Finding-the-Authentication-Attack-Surface)
 
-### 6. 👤 Username Enumeration — All Techniques
+### 6. [👤 Username Enumeration — All Techniques](#6.👤-Username-Enumeration—All-Techniques)
 
-### 7. 💥 Brute Force Attacks
+### 7. [💥 Brute Force Attacks](#7.💥-Brute-Force-Attacks)
 
-### 8. 🚧 Bypassing Brute Force Protections
+### 8. [🚧 Bypassing Brute Force Protections](#8.🚧-Bypassing-Brute-Force-Protections)
 
-### 9. 🔑 HTTP Basic Authentication
+### 9. [🔑 HTTP Basic Authentication](#9.🔑-HTTP-Basic-Authentication)
 
-### 10. 🛡️ Multi-Factor Authentication ( MFA ) — Deep Dive
+### 10. [🛡️ Multi-Factor Authentication ( MFA )](#10.🛡️-Multi-Factor-Authentication-(MFA))
 
-### 11. 🔓 2FA Bypass — All Known Techniques
+### 11. [🔓 2FA Bypass — All Known Techniques](#11.🔓-2FA-Bypass—All-Known-Techniques)
 
-### 12. 🍪 "Remember Me" Cookie Vulnerabilities
+### 12. [🍪 "Remember Me" Cookie Vulnerabilities](#12.🍪-"Remember-Me"-Cookie-Vulnerabilities)
 
-### 13. 📧 Password Reset — Vulnerabilities & Attacks
+### 13. [📧 Password Reset — Vulnerabilities & Attacks](#13.📧-Password-Reset—Vulnerabilities-&-Attacks)
 
-### 14. ☠️ Password Reset Poisoning via Host Header
+### 14. [☠️ Password Reset Poisoning via Host Header](#14.☠️-Password-Reset-Poisoning-via-Host-Header)
 
-### 15. 🔄 Password Change Vulnerabilities
+### 15. [🔄 Password Change Vulnerabilities](#15.🔄-Password-Change-Vulnerabilities)
 
-### 16. 🪙 JWT Authentication Attacks
+### 16. [🪙 JWT Authentication Attacks](#16.🪙-JWT-Authentication-Attacks)
 
-### 17. 📱 OAuth Authentication Vulnerabilities
+### 17. [📱 OAuth Authentication Vulnerabilities](#17.📱-OAuth-Authentication-Vulnerabilities)
 
-### 18. 🛠️ Tools for Authentication Testing
+### 18. [🛠️ Tools for Authentication Testing](#18.🛠️-Tools-for-Authentication-Testing)
 
-### 19. 🌍 Real-World CVEs & Bug Bounty Cases
+### 19. [🌍 Real-World CVEs & Bug Bounty Cases](#19.🌍-Real-World-CVEs-&-Bug-Bounty-Cases)
 
-### 20. 📋 Complete Authentication Testing Checklist
+### 20. [📋 Complete Authentication Testing Checklist](#20.📋-Complete-Authentication-Testing-Checklist)
 
-### 21. 📊 Authentication Vulnerability Impact Matrix
+### 21. [📊 Authentication Vulnerability Impact Matrix](#21.📊-Authentication-Vulnerability-Impact-Matrix)
 
-### 22. 🛡️ Developer Best Practices
+### 22. [🛡️ Developer Best Practices](#22.🛡️-Developer-Best-Practices)
 
 ---
 ---
 
-## **1. 🧠 What is Authentication ?**
+## **1. 🧠-What-is-Authentication-?**
 
 ---
 
@@ -68,7 +68,7 @@
 
 ---
 
-## **2. 🧾 Authentication vs Authorization**
+## **2. 🧾-Authentication-vs-Authorization**
 
 |Concept|Meaning|Example|
 |---|---|---|
@@ -85,7 +85,7 @@
 
 ---
 
-## **3. ⚙️ How Vulnerabilities Arise**
+## **3. ⚙️-How-Vulnerabilities-Arise**
 
 ---
 
@@ -121,7 +121,7 @@
 
 ---
 
-## **4. 💥 Impact of Authentication Vulnerabilities**
+## **4. 💥-Impact-of-Authentication-Vulnerabilities**
 
 - 👤 **Account Takeover (ATO)** → attacker becomes the victim
 - 🧠 **Privilege Escalation** → compromise admin account → full app control
@@ -132,7 +132,7 @@
 
 ---
 
-## **5. 🔍 Finding the Authentication Attack Surface**
+## **5. 🔍-Finding-the-Authentication-Attack-Surface**
 
 **👉 Before attacking — map EVERYTHING related to authentication.**
 
@@ -158,7 +158,7 @@
 
 ---
 
-## **6. 👤 Username Enumeration — All Techniques**
+## **6. 👤-Username-Enumeration—All-Techniques**
 
 ---
 
@@ -227,7 +227,7 @@
 
 ---
 
-## **7. 💥 Brute Force Attacks**
+## **7. 💥-Brute-Force-Attacks**
 
 |Attack Type|How It Works|Best Used When|
 |---|---|---|
@@ -288,7 +288,7 @@ mutation {
 
 ---
 
-## **8. 🚧 Bypassing Brute Force Protections**
+## **8. 🚧-Bypassing-Brute-Force-Protections**
 
 ---
 
@@ -344,7 +344,7 @@ pass5        ← attempt 5 (counter is now 0)
 
 ---
 
-## **9. 🔑 HTTP Basic Authentication**
+## **9. 🔑-HTTP-Basic-Authentication**
 
 ---
 
@@ -393,7 +393,7 @@ nmap -p 80,443 --script http-brute \
 
 ---
 
-## **10. 🛡️ Multi-Factor Authentication ( MFA )**
+## **10. 🛡️-Multi-Factor-Authentication-( MFA )**
 
 ---
 
@@ -426,7 +426,7 @@ Step 2: User receives OTP (SMS/email/authenticator app)
 
 ---
 
-## **11. 🔓 2FA Bypass — All Known Techniques**
+## **11. 🔓-2FA-Bypass—All-Known-Techniques**
 
 ---
 
@@ -585,7 +585,7 @@ Victim visits attacker's page → 2FA disabled → attacker logs in with just us
 
 ---
 
-## **12. 🍪 "Remember Me" Cookie Vulnerabilities**
+## **12. 🍪-"Remember-Me"-Cookie-Vulnerabilities**
 
 ---
 
@@ -614,7 +614,7 @@ Victim visits attacker's page → 2FA disabled → attacker logs in with just us
 
 ---
 
-## **13. 📧 Password Reset — Vulnerabilities & Attacks**
+## **13. 📧-Password-Reset—Vulnerabilities-&-Attacks**
 
 ---
 
@@ -673,7 +673,7 @@ username=carlos&password=hacked&token=   ← empty or deleted token
 
 ---
 
-## **14. ☠️ Password Reset Poisoning via Host Header**
+## **14. ☠️-Password-Reset-Poisoning-via-Host-Header**
 
 ---
 
@@ -737,7 +737,7 @@ Host: target.com:'<a href="//attacker.com?
 
 ---
 
-## **15. 🔄 Password Change Vulnerabilities**
+## **15. 🔄-Password-Change-Vulnerabilities**
 
 ---
 
@@ -759,7 +759,7 @@ Submit: current_password=GUESS, new_password=x, confirm=y
 
 ---
 
-## **16. 🪙 JWT Authentication Attacks**
+## **16. 🪙-JWT-Authentication-Attacks**
 
 ---
 
@@ -817,7 +817,7 @@ kid=' UNION SELECT 'hack'-- → SQLi in kid!
 
 ---
 
-## **17. 📱 OAuth Authentication Vulnerabilities**
+## **17. 📱-OAuth-Authentication-Vulnerabilities**
 
 ---
 
@@ -870,7 +870,7 @@ redirect_uri=https://target.com/redirect?url=https://attacker.com
 
 ---
 
-## **18. 🛠️ Tools for Authentication Testing**
+## **18. 🛠️-Tools-for-Authentication-Testing**
 
 |Tool|Purpose|Key Usage|
 |---|---|---|
@@ -904,7 +904,7 @@ hashcat -a 0 -m 16500 TARGET_JWT /usr/share/wordlists/rockyou.txt
 
 ---
 
-## **19. 🌍 Real-World CVEs & Bug Bounty Cases**
+## **19. 🌍-Real-World-CVEs-&-Bug-Bounty-Cases**
 
 ---
 
@@ -961,7 +961,7 @@ hashcat -a 0 -m 16500 TARGET_JWT /usr/share/wordlists/rockyou.txt
 
 ---
 
-## **20. 📋 Complete Authentication Testing Checklist**
+## **20. 📋-Complete-Authentication-Testing-Checklist**
 
 ---
 
@@ -1035,7 +1035,7 @@ hashcat -a 0 -m 16500 TARGET_JWT /usr/share/wordlists/rockyou.txt
 
 ---
 
-## **21. 📊 Authentication Vulnerability Impact Matrix**
+## **21. 📊-Authentication-Vulnerability-Impact-Matrix**
 
 |Vulnerability|Auth Needed|Impact|Severity|
 |---|---|---|---|
@@ -1060,7 +1060,7 @@ hashcat -a 0 -m 16500 TARGET_JWT /usr/share/wordlists/rockyou.txt
 
 ---
 
-## **22. 🛡️ Developer Best Practices**
+## **22. 🛡️-Developer-Best-Practices**
 
 ---
 
