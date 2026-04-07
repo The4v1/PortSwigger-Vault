@@ -1,5 +1,5 @@
 
-![[vul.png]]
+![vul](../assets/vul.png)
 
 ---
 ---
