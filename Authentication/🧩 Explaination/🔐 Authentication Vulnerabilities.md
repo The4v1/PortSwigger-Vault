@@ -1,5 +1,5 @@
 
-![vul](../assets/vul.png)
+![vul](../../assets/Authentication/vul.png)
 
 ---
 ---
