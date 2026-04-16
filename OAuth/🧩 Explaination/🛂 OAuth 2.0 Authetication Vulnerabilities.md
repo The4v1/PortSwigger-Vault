@@ -680,7 +680,7 @@ Better: ✅ Authorization Code + PKCE
 │Token in Browser  │    No    │   Yes    │    No    │    No    │
 │Best For          │  Web     │   N/A    │ Mobile/  │  App-to- │
 │                  │  Apps    │          │   SPA    │   App    │
-│OAuth 2.1 Status  │   ✅    │    ❌    │    ✅    │    ✅    │
+│OAuth 2.1 Status  │   ✅    │    ❌    │    ✅   │    ✅    │
 └──────────────────┴──────────┴──────────┴──────────┴──────────┘
 ```
 
