@@ -974,38 +974,38 @@ Check for:
 ### 🔭 **Keep Learning**
 
 ```
-📚 OAuth 2.1 Specification (when available)
-📚 OpenID Connect Core 1.0
-📚 OWASP Authentication Cheat Sheet
-📚 RFC 6749 (OAuth 2.0)
-📚 RFC 6750 (Bearer Tokens)
-📚 RFC 7636 (PKCE)
-📚 RFC 8705 (OAuth 2.0 Mutual TLS)
-📚 RFC 9449 (OAuth 2.0 Demonstrating Proof of Possession)
+ OAuth 2.1 Specification (when available)
+ OpenID Connect Core 1.0
+ OWASP Authentication Cheat Sheet
+ RFC 6749 (OAuth 2.0)
+ RFC 6750 (Bearer Tokens)
+ RFC 7636 (PKCE)
+ RFC 8705 (OAuth 2.0 Mutual TLS)
+ RFC 9449 (OAuth 2.0 Demonstrating Proof of Possession)
 ```
 
 ### 🛠️ **Tools for Testing**
 
 ```
-🔧 Burp Suite Professional (OAuth/OpenID modules)
-🔧 OAuth 2.0 Playground (Google)
-🔧 Postman OAuth 2.0 flows
-🔧 OWASP ZAP (with OAuth add-on)
-🔧 mitmproxy
-🔧 jwt.io (JWT debugging)
-🔧 CanaryTokens for token leakage detection
-🔧 Custom scripts for automation
+ Burp Suite Professional (OAuth/OpenID modules)
+ OAuth 2.0 Playground (Google)
+ Postman OAuth 2.0 flows
+ OWASP ZAP (with OAuth add-on)
+ mitmproxy
+ jwt.io (JWT debugging)
+ CanaryTokens for token leakage detection
+ Custom scripts for automation
 ```
 
 ### 📞 **Get Help**
 
 ```
-🆘 OAuth 2.0 Security Best Practices (IETF)
-🆘 OWASP Web Security Testing Guide
-🆘 Security StackExchange
-🆘 Your organization's security team
-🆘 Professional penetration testers
-🆘 OAuth.net community
+ OAuth 2.0 Security Best Practices (IETF)
+ OWASP Web Security Testing Guide
+ Security StackExchange
+ Your organization's security team
+ Professional penetration testers
+ OAuth.net community
 ```
 
 ---
