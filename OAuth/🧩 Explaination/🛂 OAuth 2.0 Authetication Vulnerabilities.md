@@ -4,7 +4,7 @@
 
 ---
 
-## 🎯 **What is OAuth?** {#what-is-oauth}
+## 🎯 **What is OAuth ?**
 
 ---
 
@@ -137,7 +137,7 @@ Examples:
 
 ---
 
-## 🆚 **OAuth 1.0 vs 2.0** {#oauth-versions}
+## 🆚 **OAuth 1.0 vs 2.0**
 
 ---
 
@@ -197,7 +197,7 @@ Security Warning:
 
 ---
 
-## 🔬 **How OAuth 2.0 Works** {#how-oauth-works}
+## 🔬 **How OAuth 2.0 Works**
 
 ---
 
@@ -370,7 +370,7 @@ scope=openid profile email
 
 ---
 
-## 🎭 **OAuth 2.0 Grant Types** {#grant-types}
+## 🎭 **OAuth 2.0 Grant Types**
 
 ---
 
@@ -665,7 +665,7 @@ Better: ✅ Authorization Code + PKCE
 
 ---
 
-## 📊 **Grant Type Comparison** {#grant-comparison}
+## 📊 **Grant Type Comparison**
 
 ---
 
@@ -686,7 +686,7 @@ Better: ✅ Authorization Code + PKCE
 
 ---
 
-## 🔓 **Using OAuth for Login** {#oauth-authentication}
+## 🔓 **Using OAuth for Login**
 
 ---
 
@@ -737,7 +737,7 @@ Solution: OpenID Connect (OIDC)
 
 ---
 
-## 🆔 **OpenID Connect (OIDC)** {#openid-connect}
+## 🆔 **OpenID Connect (OIDC)**
 
 ---
 
@@ -859,7 +859,7 @@ Returns:
 
 ---
 
-## 🔍 **Finding OAuth/OIDC** {#identifying-oauth}
+## 🔍 **Finding OAuth/OIDC**
 
 ---
 
