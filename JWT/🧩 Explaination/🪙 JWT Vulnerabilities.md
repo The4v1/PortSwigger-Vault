@@ -660,9 +660,7 @@ But for highly sensitive or long-term sessions, **server sessions** are safer.
 ---
 ---
 
-# **🛡️ Extra =**
-
-## 🔧 **Developer Implementation**
+## 🛡️ **Developer Implementation**
 
 ### **Generate Secure JWT**
 
