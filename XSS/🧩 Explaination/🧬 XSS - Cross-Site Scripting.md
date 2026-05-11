@@ -92,7 +92,7 @@
 
 ### **📍 Origin Components**
 
-```HTTP
+```
 Origin = Scheme + Domain + Port
 
 📌 EXAMPLES:
